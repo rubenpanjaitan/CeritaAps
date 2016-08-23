@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UAS2016</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">Jika setiap angka pada 11113107 saya  dikurangkan  dan kemudian hasilnya dikali 6, maka nilainya adalah -78</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6414029659584400/6150266970</string>
+    <string name="facebook_app_id">1341158805899312</string>
+    <string name="baris">1113107-Ruben F C Panjaitan</string>
+    <string name="baris2">D3TI1</string>
+    <string name="title_activity_1">Activity1</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="judul">Title</string>
+    <string name="penerbit">Product</string>
+    <string name="pengarang">Author</string>
+    <string name="berat">Weight</string>>
+    <string name="halaman">Page</string>
+    <string name="tanggal">Date</string>
+    <string name="tentang">About</string>>
+
+</resources>

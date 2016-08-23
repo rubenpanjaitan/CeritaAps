@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Home" />
+        <item
+            android:id="@+id/cerita_dongeng"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cerita Dongeng" />
+        <item
+            android:id="@+id/cerita_anak"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cerita Anak" />
+        <item
+            android:id="@+id/cerita_rakyat"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cerita Rakyat" />
+        <item
+            android:id="@+id/cerita_lucu"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cerita Lucu" />
+        <item
+            android:id="@+id/cerita_horor"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cerita Horor" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

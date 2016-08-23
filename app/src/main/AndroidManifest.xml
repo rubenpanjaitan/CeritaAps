@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tugas.develops.project.ceritaApps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".About" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".Activity1"
+            android:label="@string/title_activity_1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity2"
+            android:label="@string/title_activity_2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <service
+            android:name=".service"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HantuActivity"
+            android:label="Cerita Horor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DongengActivity"
+            android:label="Cerita Dongeng"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".RakyatActivity"
+            android:label="Cerita Rakyat"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".LucuActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AnakActivity"
+            android:label="Cerita Anak"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+    </application>
+
+</manifest>
